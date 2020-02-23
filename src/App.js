@@ -106,7 +106,7 @@ const App = () => {
           clear={clearItemsHandler} />
       </main>
       <h1>
-        total spending : <span className='total'>
+        total spending : <span className='total'>$
         {expenses.reduce((acc, curr) => {
           return (acc += parseInt(curr.amount))}, 0)}</span>
       </h1>

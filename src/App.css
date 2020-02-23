@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 :root {
-  --primaryColor: #f15025;
-  --mainWhite: #fff;
+  --primaryColor: #e65730;
+  --mainWhite: rgba(255, 255, 255, 0.884);
   --mainBlack: #222;
   --mainGrey: #9e9e9e;
   --mainRed: #d50000;
@@ -12,7 +12,7 @@
   box-sizing: border-box;
 }
 body {
-  background: var(--mainGrey);
+  background: url(./images/img4.png) center/cover no-repeat;
   color: var(--mainBlack);
   font-family: "Roboto", sans-serif;
 }
@@ -20,7 +20,7 @@ h1 {
   text-align: center;
   text-transform: capitalize;
   margin: 2rem 0;
-  color: var(--mainWhite);
+  color: rgb(221, 94, 94);
   letter-spacing: 5px;
 }
 .App {
