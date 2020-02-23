@@ -71,10 +71,10 @@ const App = () => {
       else {
         const singleExpense = {id: uuid(), charge, amount} 
         setExpenses([...expenses, singleExpense]) //Important: Explains functionality of Hooks   
+        alertHandler({type: 'success', text: 'Item added'})
+        setCharge('')
+        setAmount('')
       }
-      setCharge('')
-      setAmount('')
-      alertHandler({type: 'success', text: 'Item added'})
     } 
     else if(!charge && !amount) {
       alertHandler({type: 'danger', text: 'Please provide the Charge and Amount'})
